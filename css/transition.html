@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transition</title>
+    <style>
+        .box1{
+            height: 100px;
+            width: 100px;
+            background-color: green;
+            border-radius: 2px;
+            margin: 80px 0px 0px 710px;
+            transition: width 1s ease-in-out 0s;
+        }
+        body{
+            background-color: black;
+        }
+        .box1:hover {
+        width: 300px;
+      }
+      .box2 {
+        height: 100px;
+        width: 100px;
+        background-color: aquamarine;
+        margin: 100px 0px 0px 710px;
+        transition-property: transform, background-color, box-shadow;
+        transition-duration: 1s;
+        transition-timing-function: ease;
+        transition-delay: 0s;
+      }
+      .box2:hover {
+        transform: rotate(100deg);
+        background-color: rgb(105, 86, 212);
+        box-shadow: 0px 0px 20px red;
+      }
+    </style>
+</head>
+<body>
+    <h1>CSS Transition Example</h1>
+    <div class="box1"></div>
+    <div class="box2"></div>
+
+</body>
+</html>

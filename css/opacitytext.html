@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>opacity</title>
+    <style>
+div.background {
+  background: url(klematis.jpg) repeat;
+  border: 2px solid black;
+}
+body{
+    background-image: url(https://images.pexels.com/photos/458917/pexels-photo-458917.jpeg);
+     background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100vh;
+}
+div.transbox {
+  margin: 20px;
+  background-color: #ffffff;
+  border: 5px solid black;
+  opacity: 70%;
+}
+
+div.transbox p { 
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+  justify-items: center;
+  font-size: 45px;
+}
+</style>
+</head>
+<body>
+    <h1>OPACITY</h1>
+<div class="background">
+  <div class="transbox">
+    <p>This is some text that is placed in the transparent box.</p>
+  </div>
+</div>    
+</body>
+</html>

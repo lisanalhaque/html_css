@@ -1,0 +1,20 @@
+*{
+   /* universal selecter */
+    background-color: beige;
+}
+.aa1{
+    color: black;
+
+}
+.bb2{
+    color: aqua;
+}
+#id1{
+    color: brown;
+}
+h3, h4 {
+    color: blue;
+}
+div p {
+    color: rgb(204, 17, 204);
+}

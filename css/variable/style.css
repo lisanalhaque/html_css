@@ -1,0 +1,14 @@
+:root{
+    --main-color: rgb(25, 21, 231);
+    --pading-size: 10px;
+}
+.container{
+    background-color: var(--main-color);
+    padding: var(--pading-size);
+    border: 5px solid rgb(11, 11, 11);
+    color: white;
+    font-weight: bold;
+    width: 300px;
+    margin: 20px auto;
+    text-align: center;
+}
